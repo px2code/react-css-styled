@@ -1,36 +1,24 @@
-npm-debug.log
-node_modules
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-**/.DS_Store
-data/
-build/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 /.idea/
-**/.vscode/
-/temp/
-output/
-uploads/
-
-# Ignore main.css which would be compiled by sass
-**/static/css/main.css
-
-
-.idea
-.gradle
-local.properties
-*.iml
-
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
